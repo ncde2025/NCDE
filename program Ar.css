@@ -209,23 +209,40 @@ button:hover {
   top: -40px;
 }
 
-.error {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  align-items: center;
-  justify-self: center;
+.sec2 {
   position: relative;
-  top: 250px;
+  top: 190px;
+  justify-self: center;
 }
 
-.na {
+.BUTTON {
+  justify-self: center;
+}
+
+.dw {
   color: #000;
   font-family: Cairo;
-  font-size: 80px;
+  font-size: 60px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   line-height: normal;
+}
+
+.d {
+  border-radius: 32px;
+  background: #17b8a6;
+  width: 270px;
+  height: 84px;
+  flex-shrink: 0;
+  color: #d1d1d1;
+  font-size: 34.177px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: 0;
+  position: relative;
+  justify-self: center;
+  top: 25px;
 }
 
 footer {
