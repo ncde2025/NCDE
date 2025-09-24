@@ -232,6 +232,42 @@ button:hover {
   line-height: normal;
 }
 
+.dw {
+  color: #000;
+  font-family: Outfit;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.d {
+  border-radius: 32px;
+  background: #17b8a6;
+  width: 270px;
+  height: 84px;
+  flex-shrink: 0;
+  color: #d1d1d1;
+  font-size: 34.177px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: 0;
+  position: relative;
+  justify-self: center;
+  top: 25px;
+}
+
+.sec2 {
+  position: relative;
+  top: 190px;
+  justify-self: center;
+}
+
+.BUTTON {
+  justify-self: center;
+}
+
 footer {
   display: flex;
   position: relative;
@@ -292,6 +328,17 @@ footer {
     border: none;
     cursor: pointer;
   }
+
+    .dw {
+    text-align: center;
+    justify-self: center;
+    font-size: 40px;
+  }
+
+  .d {
+    top: 40px;
+  }
+
 
   .logo {
     position: absolute;
