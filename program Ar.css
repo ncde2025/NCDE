@@ -245,6 +245,25 @@ button:hover {
   top: 25px;
 }
 
+.error {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-self: center;
+  position: relative;
+  top: 250px;
+}
+
+.na {
+  color: #000;
+  font-family: Cairo;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
 footer {
   display: flex;
   position: relative;
